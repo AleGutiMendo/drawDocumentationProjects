@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T16:34:53.274Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lNVm5o_kugBtriTTSjYM" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T16:42:02.918Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="2LeU60p1edMdmjIyquj4" version="22.1.18" type="github">
   <diagram name="Página-1" id="j-4z2RN7eHjvvUNS7-LT">
-    <mxGraphModel dx="2760" dy="1593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1656" dy="956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
           <mxGeometry x="154.58" y="620" width="50" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S6Ds2HR3s4sgnbYo6ZHa-16" value="Data Lake" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="300" width="670" height="780" as="geometry" />
+          <mxGeometry x="10" y="300" width="1240" height="780" as="geometry" />
         </mxCell>
         <mxCell id="S6Ds2HR3s4sgnbYo6ZHa-18" value="Stage" style="swimlane;whiteSpace=wrap;html=1;" parent="S6Ds2HR3s4sgnbYo6ZHa-16" vertex="1">
           <mxGeometry x="340" y="70" width="300" height="340" as="geometry" />
@@ -84,6 +84,24 @@
         </mxCell>
         <mxCell id="S6Ds2HR3s4sgnbYo6ZHa-42" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" parent="S6Ds2HR3s4sgnbYo6ZHa-31" vertex="1">
           <mxGeometry x="437" y="190" width="30" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="O3O1dc4vRpSWTkktztUF-1" value="Analitycs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="S6Ds2HR3s4sgnbYo6ZHa-16">
+          <mxGeometry x="690" y="70" width="300" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="O3O1dc4vRpSWTkktztUF-2" value="Bucket S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_aws_backup_support_for_amazon_s3;" vertex="1" parent="O3O1dc4vRpSWTkktztUF-1">
+          <mxGeometry x="64" y="65.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3O1dc4vRpSWTkktztUF-3" value="GLUE&lt;br&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;" vertex="1" parent="O3O1dc4vRpSWTkktztUF-1">
+          <mxGeometry x="180" y="71" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3O1dc4vRpSWTkktztUF-7" value="Discovery" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="S6Ds2HR3s4sgnbYo6ZHa-16">
+          <mxGeometry x="690" y="440" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="O3O1dc4vRpSWTkktztUF-8" value="Bucket S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.backup_aws_backup_support_for_amazon_s3;" vertex="1" parent="O3O1dc4vRpSWTkktztUF-7">
+          <mxGeometry x="64" y="65.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O3O1dc4vRpSWTkktztUF-9" value="GLUE&lt;br&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.glue;" vertex="1" parent="O3O1dc4vRpSWTkktztUF-7">
+          <mxGeometry x="180" y="71" width="60" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
