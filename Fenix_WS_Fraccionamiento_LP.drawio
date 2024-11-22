@@ -197,11 +197,34 @@
         <mxCell id="AGSc0J4f7E3v8w63l6Om-47" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_oracle_instance;" vertex="1" parent="1">
           <mxGeometry x="-379" y="945" width="78" height="78" as="geometry" />
         </mxCell>
+        <mxCell id="AGSc0J4f7E3v8w63l6Om-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AGSc0J4f7E3v8w63l6Om-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="1105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AGSc0J4f7E3v8w63l6Om-48" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal;&quot;&gt;reciboDA.CalcularDiferenciaFechaMeses&lt;/p&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=component;align=center;spacingLeft=36;fontSize=13;fontStyle=1;spacing=0;strokeColor=#82b366;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=#d5e8d4;strokeWidth=1.5;lucidId=lD6s_1Mw1OkF;" vertex="1" parent="1">
           <mxGeometry x="70" y="1080" width="300" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AGSc0J4f7E3v8w63l6Om-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.088;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="AGSc0J4f7E3v8w63l6Om-41" target="AGSc0J4f7E3v8w63l6Om-48">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AGSc0J4f7E3v8w63l6Om-51" value="Parámetros de Entrada&#xa;&#xa;    1.    fechaInicial (DateTime): Fecha inicial para el cálculo.&#xa;    2.    fechaFinal (DateTime): Fecha final para el cálculo." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="840" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AGSc0J4f7E3v8w63l6Om-52" value="Parámetros de Salida&#xa;&#xa;El método devuelve un valor entero que representa el número total de meses redondeado hacia arriba (usando Math.Ceiling).&#xa;    •    diferenciaFechas (int): Número de meses entre fechaInicial y fechaFinal." style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="933" width="550" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AGSc0J4f7E3v8w63l6Om-53" value="MONTHS_BETWEEN" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1170" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AGSc0J4f7E3v8w63l6Om-54" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_oracle_instance;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1150" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="AGSc0J4f7E3v8w63l6Om-56" value="{&#xa;  &quot;diasFechaVencimiento&quot;: 30,&#xa;  &quot;listaCuotasBE&quot;: [&#xa;    {&#xa;      &quot;numeroCuota&quot;: 1,&#xa;      &quot;idEstadoCuota&quot;: 1,&#xa;      &quot;montoCuota&quot;: 100.50,&#xa;      &quot;montoNetoCuota&quot;: 95.00,&#xa;      &quot;montoComision&quot;: 5.50,&#xa;      &quot;fechaExpiracion&quot;: &quot;2024-12-31&quot;,&#xa;      &quot;montoInteres&quot;: 1.50,&#xa;      &quot;fechaEstado&quot;: &quot;2024-11-21&quot;,&#xa;      &quot;iva&quot;: 0.50,&#xa;      &quot;fechaLimite&quot;: &quot;2024-12-31&quot;,&#xa;      &quot;totalCuotaInicial&quot;: 1000.00,&#xa;      &quot;idIntermediario&quot;: 67890,&#xa;      &quot;fechaInicioVigenciaCupon&quot;: &quot;2024-12-01&quot;,&#xa;      &quot;fechaFinVigenciaCupon&quot;: &quot;2025-11-30&quot;&#xa;    },&#xa;    {&#xa;      &quot;numeroCuota&quot;: 2,&#xa;      &quot;idEstadoCuota&quot;: 1,&#xa;      &quot;montoCuota&quot;: 100.50,&#xa;      &quot;montoNetoCuota&quot;: 95.00,&#xa;      &quot;montoComision&quot;: 5.50,&#xa;      &quot;fechaExpiracion&quot;: &quot;2025-01-31&quot;,&#xa;      &quot;montoInteres&quot;: 1.50,&#xa;      &quot;fechaEstado&quot;: &quot;2024-11-21&quot;,&#xa;      &quot;iva&quot;: 0.50,&#xa;      &quot;fechaLimite&quot;: &quot;2025-01-31&quot;,&#xa;      &quot;totalCuotaInicial&quot;: 1000.00,&#xa;      &quot;idIntermediario&quot;: 67890,&#xa;      &quot;fechaInicioVigenciaCupon&quot;: &quot;2025-01-01&quot;,&#xa;      &quot;fechaFinVigenciaCupon&quot;: &quot;2025-02-28&quot;&#xa;    }&#xa;  ],&#xa;  &quot;listaMensajesBE&quot;: [&#xa;    {&#xa;      &quot;idError&quot;: 1,&#xa;      &quot;descripcion&quot;: &quot;Debe aumentar el valor de las cuotas a 100.00&quot;&#xa;    },&#xa;    {&#xa;      &quot;idError&quot;: 2,&#xa;      &quot;descripcion&quot;: &quot;Número de cuotas no puede ser mayor al período de vigencia de la póliza.&quot;&#xa;    }&#xa;  ]&#xa;}" style="text;whiteSpace=wrap;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="750" y="825" width="530" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="AGSc0J4f7E3v8w63l6Om-57" value="Response" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="788" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
