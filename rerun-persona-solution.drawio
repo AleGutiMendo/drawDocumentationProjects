@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Página-1" id="Xw562k6EMDm5bypidX2n">
-    <mxGraphModel dx="1420" dy="3780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="3921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -118,7 +118,7 @@
           <mxGeometry x="680" y="118.5" width="25.46" height="30" as="geometry" />
         </mxCell>
         <mxCell id="bNc2lu7Or8TXLOfRve6q-1" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/user_accounts.svg;" vertex="1" parent="1">
-          <mxGeometry x="140" y="220" width="82.47" height="80" as="geometry" />
+          <mxGeometry x="130" y="149" width="82.47" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bNc2lu7Or8TXLOfRve6q-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;shadow=0;" edge="1" parent="1" source="bNc2lu7Or8TXLOfRve6q-3" target="bNc2lu7Or8TXLOfRve6q-29">
           <mxGeometry relative="1" as="geometry">
@@ -126,7 +126,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bNc2lu7Or8TXLOfRve6q-3" value="Lender Portal" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;" vertex="1" parent="1">
-          <mxGeometry x="290" y="221" width="78" height="78" as="geometry" />
+          <mxGeometry x="280" y="150" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="bNc2lu7Or8TXLOfRve6q-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" edge="1" parent="1" source="bNc2lu7Or8TXLOfRve6q-1" target="bNc2lu7Or8TXLOfRve6q-3">
           <mxGeometry relative="1" as="geometry" />
