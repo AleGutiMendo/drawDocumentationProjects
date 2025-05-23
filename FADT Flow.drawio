@@ -133,7 +133,7 @@
         <mxCell id="Q_g-mYulyTmbEGPXeWd7-43" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Globe_Success.svg;" vertex="1" parent="1">
           <mxGeometry x="1830" y="240" width="56.00000000000001" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="Q_g-mYulyTmbEGPXeWd7-45" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Invoke&lt;/h1&gt;&lt;p&gt;Invocación controlada basada en que el prestamo no haya generado el objeto&amp;nbsp;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;firstAmericanDTAResponse&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Q_g-mYulyTmbEGPXeWd7-45" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Invoke&lt;/h1&gt;&lt;p&gt;Controlled invocation based on the loan not having generated the object&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;firstAmericanDTAResponse&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1790" y="320" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Q_g-mYulyTmbEGPXeWd7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.039;entryY=0.401;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Q_g-mYulyTmbEGPXeWd7-39" target="Q_g-mYulyTmbEGPXeWd7-40">
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q_g-mYulyTmbEGPXeWd7-47" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Re - Invoke&lt;/h1&gt;&lt;p&gt;Invocación adicional inncesaria dentro del fliujo&lt;/p&gt;&lt;div&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Q_g-mYulyTmbEGPXeWd7-47" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Re - Invoke&lt;/h1&gt;&lt;p&gt;Additional incessant in-stream invocation&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br style=&quot;text-align: center;&quot;&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1800" y="540" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Q_g-mYulyTmbEGPXeWd7-48" value="82efcac18c3fcf8c922f135efa93091cd367e727" style="text;whiteSpace=wrap;" vertex="1" parent="1">
