@@ -153,6 +153,9 @@
         <mxCell id="Q_g-mYulyTmbEGPXeWd7-49" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;fillColor=#f8cecc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.command_line;gradientColor=#ea6b66;" vertex="1" parent="1">
           <mxGeometry x="1750" y="650" width="28.000000000000004" height="28.000000000000004" as="geometry" />
         </mxCell>
+        <mxCell id="Q_g-mYulyTmbEGPXeWd7-50" value="Error Commit" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
