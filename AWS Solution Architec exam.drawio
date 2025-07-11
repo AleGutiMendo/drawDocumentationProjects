@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
   <diagram name="Página-1" id="NMruJkIku_sLH3NQZ0nU">
-    <mxGraphModel dx="2425" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1657" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -480,6 +480,14 @@
               <mxPoint x="1200" y="1090" />
               <mxPoint x="2560" y="1090" />
               <mxPoint x="2560" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iJXeqNtU1pkkKiY1ZEG7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;strokeColor=light-dark(#000000,#9933FF);" edge="1" parent="1" source="jm6-lyp_4xsyJlH1QK8w-37" target="jm6-lyp_4xsyJlH1QK8w-213">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="889" y="470" />
+              <mxPoint x="1419" y="470" />
             </Array>
           </mxGeometry>
         </mxCell>
