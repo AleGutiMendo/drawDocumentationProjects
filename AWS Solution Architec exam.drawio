@@ -98,7 +98,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Flow-Diagram" id="NMruJkIku_sLH3NQZ0nU">
-    <mxGraphModel dx="1399" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="2425" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -227,12 +227,6 @@
         <mxCell id="j3EX1172komLXrj1-xk2-18" value="us-east-1" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_region;strokeColor=#00A4A6;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=1;" vertex="1" parent="jm6-lyp_4xsyJlH1QK8w-4">
           <mxGeometry x="410" y="20" width="1290" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="PJbRXqM8a-9u05yhqgAW-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j3EX1172komLXrj1-xk2-18">
-          <mxGeometry x="710" y="225.5" width="238.78" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="PJbRXqM8a-9u05yhqgAW-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="j3EX1172komLXrj1-xk2-18">
-          <mxGeometry x="550" y="520" width="598" height="195.5" as="geometry" />
-        </mxCell>
         <mxCell id="j3EX1172komLXrj1-xk2-21" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="j3EX1172komLXrj1-xk2-18">
           <mxGeometry x="470" y="40" width="40.77" height="23" as="geometry" />
         </mxCell>
@@ -303,10 +297,7 @@
           <mxGeometry x="838.78" y="293.5" width="52" height="52" as="geometry" />
         </mxCell>
         <mxCell id="PJbRXqM8a-9u05yhqgAW-13" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" vertex="1" parent="j3EX1172komLXrj1-xk2-18">
-          <mxGeometry x="728.78" y="239.5" width="200" height="256" as="geometry" />
-        </mxCell>
-        <mxCell id="PJbRXqM8a-9u05yhqgAW-14" value="Data Layer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="j3EX1172komLXrj1-xk2-18">
-          <mxGeometry x="688.78" y="200" width="80" height="30" as="geometry" />
+          <mxGeometry x="720" y="220" width="220" height="280" as="geometry" />
         </mxCell>
         <mxCell id="j3EX1172komLXrj1-xk2-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#009900);flowAnimation=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.526;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="jm6-lyp_4xsyJlH1QK8w-4" source="jm6-lyp_4xsyJlH1QK8w-182" target="PJbRXqM8a-9u05yhqgAW-5">
           <mxGeometry relative="1" as="geometry">
